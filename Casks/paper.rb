@@ -1,12 +1,12 @@
 cask "paper" do
-  version "5.2.7"
+  version "5.3.0"
   sha256 "acb47bbc7e47152d7d31723adee5c6fdf6c158598fb83612bc25edb7fe31db00"
 
-  url "https://s3.nsns.in/dl/paper-v#{version}.dmg",
-      verified: "s3.nsns.in/"
+  url "https://s3.nxn.fun/dl/paper-v#{version}.dmg",
+      verified: "s3.nxn.fun/"
   name "pap.er"
   desc "Pap.er, 4K 5K HD Wallpaper Application"
-  homepage "https://paper.meiyuan.in/"
+  homepage "https://paper.photos/"
 
   livecheck do
     url :homepage
